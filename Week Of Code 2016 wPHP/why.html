@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Browser tab icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="pb.ico" />
+
+<title>Why Recycle?</title>
+
+<!-- Font APIs -->
+
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans serif;
+}
+
+/*| Navigation Bar|*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #3A6293;
+  box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+  border: 1px solid rgba(0,0,0,.1);
+}
+  nav ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    display: inline-table;
+  }
+    nav ul li{
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+
+    nav ul li:hover{background: rgba(0,0,0,.15);}
+    nav ul li:hover > ul{display: block;}
+    nav ul li{
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+      nav ul li a{
+        display: block; 
+        padding: 30px 20px;
+        color: white; 
+        font-size: .9em;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      nav ul ul{
+        display: none;
+        background: #2D4F7D;
+        position: absolute; 
+        top: 100%;
+        box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+        border: 1px solid rgba(0,0,0,.1);
+      }
+        nav ul ul li{float: none; position: relative;}
+          nav ul ul li a {
+            padding: 15px 30px; 
+            border-bottom: 1px solid rgba(0,0,0,.05);
+          }
+          nav ul ul ul {
+            position: absolute; 
+            left: 100%; 
+            top:0;
+          }	
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+  background-image: url("apk.png");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans serif;
+
+}
+
+p#why {
+  font-size: 175px;
+  font-family: 'Lato', sans serif;
+  color: white;
+  margin-top: 150px;
+}
+
+p.text {
+  font-family: 'Lato', sans serif;
+}
+
+p#recycling {
+  margin-top: 850px;
+  font-size: 75px;
+  color: white;
+}
+
+p#scroll {
+  font-family: 'Lato', sans serif;
+  color: white;
+  font-size: 20px;
+}
+
+p#wii {
+  margin-top: 10px;
+  color: #285568;
+  font-size: 50px;
+}
+
+p#text {
+  color: white;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-right: 70px;
+  margin-left: 100px;
+}
+
+p.headings {
+  font-size: 35px;
+  color: white;
+  margin-top: 35px;
+  margin-left: 100px;
+}
+
+p.bulk {
+  font-size: 30px;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+p#kiran {
+  font-size: 60px;
+  color: rgba(0,0,0,0);
+}
+
+a.gw {
+  color: #285568;
+}
+
+a.gw:hover {
+  color: green;
+}
+
+a.gwd {
+  color: #285568;
+}
+
+a.gwd:hover {
+  color: #004DB3;
+}
+
+a.source {
+  font-size: 20px;
+  color: #0C1A25;
+  text-decoration: none;
+}
+
+a.source:hover {
+  font-size: 26px; 
+  text-decoration: underline;
+}
+
+p#src {
+  font-size: 30px;
+  color: #0C1A25;
+}
+
+img#penguino {
+  margin: 10px;
+}
+
+a#simple {
+  color: #285568; 
+}
+
+a#simple:hover {
+  color: #0C1A25;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+	<nav role='navigation'>
+        <img src="pwhy.png" width="60" height="60" id='penguino'>
+  <ul>
+    <li><a href="recycling.php">Home</a></li>
+    <li><a href="why.html">Recycling?</a>
+      <ul>
+        <li><a href="why.html">Why Recycle?</a></li>
+        <li><a href="where.html">Where to Recycle?</a></li>
+        <li><a href="how.html">How to Recycle?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>  
+
+<!-- Text -->
+
+<center><p id='why'>WHY RECYCLE?</p></center>
+
+<center><p id='scroll'>SCROLL DOWN FOR MORE</p></center>
+
+<center><p class="text" id='recycling'>Recycling</p></center>
+
+<center><p class="text" id='wii'>What is it?</p></center>
+
+<p class="text" id='text'>When you filter your waste so less goes to landfill, helping the planet, securing the future and ensuring many more years with the only earth we will ever get. <a href="" id='simple'>Does this page look like too much? See the quick (and penguin) version by clicking here</a></p>
+
+<p class="headings">Benefits for industries</p>
+
+<p class="bulk">Recycling saves energy because the manufacturer doesn't have to produce something new from raw natural resources. By using recycled materials we save on energy consumption, which keeps production costs down. Recycling reduces the need for more landfills freeing up more valuable, limited space.</p>
+
+<p class="headings">Benefits for the planet</p>
+
+<p class="bulk">Landfill and general waste is a major contributor to global warming. Solid waste landfills are the single largest man-made source of methane gas. Methane (CH4) is a greenhouse gas that is 23 times more effective at trapping heat in the atmosphere than the most common greenhouse gas, carbon dioxide (CO2). In one year, 43 per cent of all penguin chick deaths were attributed to climate change and in another 50 per cent. Starvation and the weather were likely to interact increasingly as the climate changed, according to the researchers. 65 per cent of penguin chicks died each year, with 40 per cent starving <a href="http://www.dailymail.co.uk/sciencetech/article-2548164/Penguins-peril-climate-change-Chicks-dying-rainstorms-heatwaves-claim-scientists.html"  target="_blank" class="gwd">(Daily Mail)</a>. And these harms do not just affect penguins, they affect all other species on earth as well as humans too. It's estimated up to 75% <a href="https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=what%20percentage%20of%20landfill%20waste%20could%20be%20recycled"  target="_blank" class="gw">(GreenWaste)</a> of landfill could have been recycled with only 30% of it actually recycled. Recycling helps our planet; helping our home, our planet and our beloved penguins.      </p>
+
+<center><b><p id='src'>Sources: 
+
+<!-- Sources -->
+
+  <a href="https://www.edinburgh.gov.uk/" class="source" target="_blank">Edinburgh City Council</a>,
+  <a href="http://www.sepa.org.uk/environment/environmental-data/" class="source" target="_blank">Scottish Enviromental Protection Agency </a>, 
+  <a href="https://www.google.co.uk/" class="source" target="_blank" >Google</a>, 
+  <a href="http://www.eci.ox.ac.uk/research/climate/index.html" class="source" target="_blank">Oxford University</a>, 
+  <a href="http://www.nytimes.com/topic/subject/global-warming-climate-change" class="source" target="_blank">New York Times</a>, 
+  <a href="http://www.livescience.com/topics/global-warming" class="source" target="_blank">LiveScience</a>, 
+  <a href="http://http://www.dailymail.co.uk/sciencetech/article-2548164/Penguins-peril-climate-change-Chicks-dying-rainstorms-heatwaves-claim-scientists.html" class="source" target="_blank">Daily Mail</a> 
+
+</p></b></center>
+
+<center><p id="kiran">Kiran is the best, the supreme overlord all bow down to his great greatness.</p></center>
+
+</body>
+
+</html>

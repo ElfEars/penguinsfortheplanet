@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Material Design Inspired Navigation Demo</title>
+<style class="cp-pen-styles">* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  line-height: 1.5em;
+  position: relative;
+}
+.navOpen {
+  overflow: hidden;
+}
+.wrapper {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 100px 40px;
+}
+.wrapper.open {
+  transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.wrapper section {
+  max-width:  730px;
+  margin: 0 auto;
+}
+.wrapper section h1 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.wrapper section h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.wrapper section p {
+  margin-bottom: 40px;
+}
+.openNav {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+  width: 50px;
+  height: 50px;
+  background-color: #14B9FF;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+}
+.openNav:hover {
+  cursor: pointer;
+}
+.openNav .icon {
+  transition-duration: 0.2s;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  top: 24px;
+  left: 10px;
+}
+.openNav .icon:before,
+.openNav .icon:after {
+  transition-duration: 0.5s;
+  background-color: white;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  left: 0px;
+}
+.openNav .icon:before {
+  top: -7px;
+}
+.openNav .icon:after {
+  top: 7px;
+}
+.openNav.open {
+  transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);
+}
+.openNav.open .icon {
+  background-color: transparent;
+}
+.openNav.open .icon:before,
+.openNav.open .icon:after {
+  top: 0;
+}
+.openNav.open .icon:before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.openNav.open .icon:after {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+nav {
+  background-color: #14B9FF;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+nav ul {
+  width: 250px;
+  margin-top: 50px;
+}
+nav ul:hover li {
+  color: rgba(255, 255, 255, 0.5);
+}
+nav ul li {
+  transition-duration: 0.25s;
+  display: block;
+  padding: 5px 40px;
+  color: white;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+nav ul li:hover {
+  cursor: pointer;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+<nav>
+  <ul>
+    <li>Home</li>
+    <li>Products</li>
+    <li>Shopping Cart</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+<div class="openNav">
+  <div class="icon"></div>
+</div>
+
+<div class="wrapper">
+  <section>
+    <h1>Material Design Inspired Navigation Demo</h1>
+    <h2>By Lewi Hussey</h2>
+    <div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet elementum ligula. Suspendisse potenti. Donec ultrices luctus luctus. Curabitur faucibus, mi posuere imperdiet mattis, nisi ipsum ornare magna, in porttitor urna erat eget mi. Etiam eu diam ac ex porta tempus a bibendum libero. Quisque egestas velit turpis. Curabitur tempus consectetur vulputate. Sed vitae cursus dolor, et hendrerit lectus. Morbi ut luctus odio.</p>
+    <p>Integer eu felis turpis. Proin vitae dui metus. Nulla luctus augue id velit pellentesque suscipit. Sed a pretium orci. Vestibulum id magna ex. Nam eget sapien laoreet, sollicitudin ligula eu, rutrum lectus. Proin rhoncus nulla et diam varius, nec convallis nisi placerat. Pellentesque fermentum est odio, at tempor eros laoreet vitae.</p>
+    <p>Quisque malesuada elementum lectus eu malesuada. Aenean fermentum est vel diam dictum volutpat. Phasellus vitae dui risus. Pellentesque pharetra velit ut nisl ullamcorper, id rutrum lectus tincidunt. Nulla egestas laoreet lacinia. Donec hendrerit enim ex, quis rutrum ex commodo a. Fusce a dui lectus. Etiam eros turpis, elementum at augue a, placerat accumsan ligula. Vivamus congue felis ac sem lobortis, sed fringilla dolor blandit.</p>
+    <p>Etiam posuere viverra metus, at luctus lectus congue a. Praesent rhoncus risus vitae turpis tristique rutrum. Curabitur a urna vel tortor finibus sodales vel at ex. Aenean iaculis massa non ex convallis, ac rhoncus leo aliquam. Quisque ut eleifend enim. Nulla laoreet varius dolor nec dictum. Donec et tempus orci, sed ultrices metus. Cras blandit imperdiet eleifend. Donec a faucibus turpis. Mauris tempor, mauris eu faucibus commodo, urna risus feugiat nulla, fermentum varius nisi est eu nibh. Duis euismod porttitor lacinia. Suspendisse mollis sagittis neque, consectetur convallis nisi tristique quis. Donec ornare nulla id nibh sollicitudin, et imperdiet enim elementum.</p>
+    <p>In condimentum ultrices nisi eu cursus. Nullam orci nulla, volutpat non condimentum in, tristique id turpis. Mauris rhoncus congue massa sed ornare. Quisque finibus non sapien ultricies interdum. Nulla facilisi. Praesent arcu mi, interdum nec pulvinar vel, feugiat ut leo. Nulla vulputate, felis sed blandit fringilla, justo nulla laoreet arcu, sollicitudin scelerisque libero neque nec nunc. Quisque pharetra risus risus, rutrum maximus felis egestas vitae.</p>
+  </section>
+</div>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+$(".openNav").click(function() {
+  $("body").toggleClass("navOpen");
+  $("nav").toggleClass("open");
+  $(".wrapper").toggleClass("open");
+  $(this).toggleClass("open");
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

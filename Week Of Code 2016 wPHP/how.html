@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Browser tab icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="pb.ico" />
+
+<title>How To Recycle?</title>
+
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans serif;
+}
+
+/*| Navigation |*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+nav{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00C52E;
+  box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+  border: 1px solid rgba(0,0,0,.1);
+}
+  nav ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    display: inline-table;
+  }
+    nav ul li{
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+
+    nav ul li:hover{background: rgba(0,0,0,.15);}
+    nav ul li:hover > ul{display: block;}
+    nav ul li{
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+      nav ul li a{
+        display: block; 
+        padding: 30px 20px;
+        color: white; 
+        font-size: .9em;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      nav ul ul{
+        display: none;
+        background: #009725;
+        position: absolute; 
+        top: 100%;
+        box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+        border: 1px solid rgba(0,0,0,.1);
+      }
+        nav ul ul li{float: none; position: relative;}
+          nav ul ul li a {
+            padding: 15px 30px; 
+            border-bottom: 1px solid rgba(0,0,0,.05);
+          }
+          nav ul ul ul {
+            position: absolute; 
+            left: 100%; 
+            top:0;
+          }	
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+body {
+  background-image: url(how.jpg);
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img#penguino {
+  margin: 10px;
+}
+
+p#how {
+  font-family: 'Lato', sans serif;
+  color: white;
+  font-size: 100px;
+  margin-top: 30px;
+}
+
+div#container { 
+	   text-align:center; 
+	   font-family: 'Lato', sans serif; 
+	   font-size:14px; 
+	   letter-spacing:0.05em; 
+	   } 
+
+div#container { 
+	    position:relative; 
+	    width:770px; 
+	    height:396px; 
+	    margin:20px auto 0 auto; 
+	    border:1px solid #aaa; 
+	    } 
+
+#container ul { 
+    padding:0; 
+    margin:0; 
+    list-style-type:none; 
+    } 
+
+#container a.gallery span { 
+    	    position:absolute; 
+    	    width:1px; 
+    	    height:1px; 
+    	    top:5px; 
+    	    left:5px; 
+    	    overflow:hidden; 
+    	    background:#fff; 
+    	    } 
+
+#container a.gallery, #container a.gallery:visited { 
+    display:block; 
+    color:#000; 
+    text-decoration:none; 
+    border:1px solid #000; 
+    margin:1px 2px 1px 2px; 
+    text-align:left; 
+    cursor:default; 
+	    } 
+	#container a.slidea { 
+	    background:url(gb1.jpg); 
+	    height:93px; 
+	    width:60px; 
+	    } 
+	#container a.slideb { 
+	    background:url(b1.jpg); 
+	    height:93px; 
+	    width:60px; 
+	    } 
+	#container a.slidec { 
+	    background:url(g1.jpg); 
+	    height:93px; 
+	    width:60px; 
+	    } 
+	#container a.slided { 
+	    background:url(prp1.png); 
+	    height:60px; 
+	    width:93px; 
+	    } 
+	* html #container a.slided { 
+	    width:91px; 
+	    w\idth:93px; 
+	    } 
+	#container a.slidee { 
+	    background:url(fw1.png); 
+	    height:60px; 
+	    width:93px; 
+	    } 
+	#container a.slidef { 
+	    background:url(mx1.jpg); 
+	    height:60px; 
+	    width:93px; 
+	    } 
+	* html #container a.slidef { 
+	    width:91px; 
+	    w\idth:93px; 
+	    } 
+	#container a.slideg { 
+	    background:url(bl1.png); 
+	    height:60px; 
+	    width:93px; 
+	    } 
+	#container a.slideh { 
+	    background:url(bin1.png); 
+	    height:93px; 
+	    width:60px; 
+	    } 
+	#container a.slidei { 
+	    background:url(fo1.png); 
+	    height:93px; 
+	    width:60px; 
+	    } 
+	#container a.slidej { 
+	    background:url(skip1.png); 
+	    height:93px; 
+	    width:60px; 
+	    } 
+	#container a.slidek { 
+	    background:url(ppr1.png); 
+	    height:60px; 
+	    width:93px; 
+	    } 
+	* html #container a.slidek { 
+	    width:91px; 
+	    w\idth:93px; 
+	    } 
+	#container a.slidel { 
+	    background:url(in1.png); 
+	    height:60px; 
+	    width:93px; 
+	    } 
+
+	    	#container ul { 
+    width:198px; 
+    height:386px; 
+    } 
+#container li { 
+    float:left; 
+    } 
+#container ul { 
+	    margin:5px; 
+	    float:right; 
+	    } 
+
+#container a.gallery:hover { 
+	    border:1px solid #fff; 
+	    } 
+
+#container a.gallery:hover span { 
+	    position: absolute; 
+	    width:372px; 
+	    height:372px; 
+	    top:10px; 
+	    left:75px; 
+	    color:#000; 
+	    background:#fff; 
+	    } 
+
+#container a.gallery:hover img { 
+    border:1px solid #fff; 
+    float:left; 
+    margin-right:5px; 
+    } 
+
+#container a.slideb:hover img, #container a.slidei:hover img { 
+	    float:right; 
+	    } 
+
+#container { 
+	    background: white; url(../images/back.jpg) 75px 10px no-repeat; 
+	    border-radius: 19px;
+	    margin: 10px;
+	    } 
+
+a.source {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a.source:hover {
+  font-size: 26px; 
+  text-decoration: underline;
+}
+
+p#src {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+	<nav role='navigation'>
+        <img src="phome.png" width="60" height="60" id='penguino'>
+  <ul>
+    <li><a href="recycling.html">Home</a></li>
+    <li><a href="#">Recycling?</a>
+      <ul>
+        <li><a href="why.html">Why Recycle?</a></li>
+        <li><a href="where.html">Where to Recycle?</a></li>
+        <li><a href="how.html">How to Recycle?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>  
+
+<center><p id='how'>HOW TO RECYCLE?</p></center>
+
+<div id="container"> 
+	  <ul> 
+    <li> 
+      <a class="gallery slidea" href="#nogo"> 
+        <span> 
+          <img src="gb.jpg" alt="Green Bin" title="Green Bin" /> 
+          <br /> 
+          Green Bin 
+          <br /> 
+	          This multi-purpose bin takes tins, cans, paper, cardboard, clean aluminium foil (for example foil trays) drinks cartons, envelopes, shredded paper, plastic bottles and bottle tops, pots, tubs and trays. Please put the items inside the bin loose, do not use plastic or black bags to cover them. 
+	        </span> 
+	      </a> 
+	    </li> 
+	    <li> 
+	      <a class="gallery slideb" href="#nogo"> 
+	        <span> 
+	          <img src="b.jpg" alt="Minie" title="Minie" /> 
+	          <br /> 
+	          Brown Bin 
+	          <br /> 
+	          This garden waste bin takes flowers, plants, garden weeds, grass cuttings, hedge clippings, twigs, small branches and trees cut down to fit in bin.
+	        </span> 
+	      </a> 
+  </li> 
+  <li> 
+    <a class="gallery slidec" href="#nogo"> 
+      <span> 
+        <img src="g.jpg" alt="Megan" title="Megan" /> 
+        <br /> 
+       Grey Bin
+        <br /> 
+        This landfill bin is for all waste that can't be recycled e.g. nappies, animal waste and polystyrene and mixed rubbish.
+      </span> 
+    </a> 
+  </li> 
+  <li> 
+    <a class="gallery slided" href="#nogo"> 
+      <span> 
+        <img src="prp.png" alt="Nancy" title="Nancy" /> 
+        <br /> 
+        Packaging Recycling Point 
+        <br /> 
+        Items suitable for recycling in this bin are labelled on the front as they may vary from bin to bin. 
+      </span> 
+    </a> 
+  </li> 
+  <li> 
+    <a class="gallery slidee" href="#nogo"> 
+      <span><img src="fw.png" alt="Missy" title="Missy" /> 
+        <br /> 
+Food Waste Bin        <br /> 
+        Items to recycle in this bin are labelled on the front as they may vary from bin to bin. 
+      </span> 
+    </a> 
+  </li> 
+  <li> 
+    <a class="gallery slidef" href="#nogo"> 
+      <span> 
+        <img src="mx.jpg" alt="Stray pup" title="Stray pup" /> 
+        <br /> 
+General Waste Bin        <br /> 
+For all non-recyclable items.      </span> 
+    </a> 
+  </li> 
+  <li> 
+    <a class="gallery slideg" href="#nogo"> 
+      <span> 
+        <img src="bl.png" alt="Rolo" title="Rolo" /> 
+        <br /> 
+       Glass Recycling Box 
+	          <br /> 
+This box is for all glass (you don't have to remove metal or plastic lids on) , batteries, small electricals and textiles.	        </span> 
+	      </a> 
+	    </li> 
+	    <li> 
+	      <a class="gallery slideh" href="#nogo"> 
+	        <span> 
+
+	          <img src="bin.png" alt="Gigio" title="Gigio" /> 	          <br /> 
+	          Streetside Bin 
+	          <br /> 
+For all waste on the go.	        </span> 
+	      </a> 
+	    </li> 
+	    <li> 
+	      <a class="gallery slidei" href="#nogo"> 
+	        <span> 
+	          <img src="fo.png" alt="Westy pup" title="Westy Pup" /> 
+	          <br /> 
+	          Household Food Bin 
+	          <br /> 
+	          All types of food, including uncooked and cooked, excluding liquids like cooking oil and milk. Bag your waste in compostable bags or old plastic bags. You can buy compostable liners for your food waste caddy at all libraries for £1 a roll.
+	        </span> 
+	      </a> 
+	    </li> 
+	    <li> 
+	      <a class="gallery slidej" href="#nogo"> 
+	        <span> 
+	          <img src="skip.png" alt="Giga Byte" title="Fishing" /> 
+	          <br /> 
+Skip	          <br /> 
+For all construction or large waste eg. furniture, staircases and industrial (not chemical) waste.	        </span> 
+	      </a> 
+	    </li> 
+	    <li> 
+	      <a class="gallery slidek" href="#nogo"> 
+	        <span> 
+	          <img src="ppr.png" alt="Puppy" title="Puppy" /> 
+	          <br /> 
+	          Industrial Paper Bin 
+	          <br /> 
+Can also be used for residential paper disposal as well as envelopes, newspaper, magazines and more labelled on front.	        </span> 
+	      </a> 
+	    </li> 
+	    <li> 
+	      <a class="gallery slidel" href="#nogo"> 
+	        <span> 
+	          <img src="in.png" alt="Buffy" title="Buffy" /> 
+	          <br /> 
+	          Internal Office Bin 
+	          <br /> 
+These bins are labbelled on the front and vary by office.	        </span> 
+	      </a> 
+	    </li> 
+	  </ul> 
+	</div> 
+
+<center><b><p id='src'>Sources: 
+
+<!-- Sources -->
+
+  <a href="https://www.edinburgh.gov.uk/" class="source" target="_blank">Edinburgh City Council</a>,
+  <a href="http://www.sepa.org.uk/environment/environmental-data/" class="source" target="_blank">Scottish Enviromental Protection Agency </a>, 
+  <a href="https://www.google.co.uk/" class="source" target="_blank" >Google</a>, 
+  <a href="http://www.eci.ox.ac.uk/research/climate/index.html" class="source" target="_blank">Oxford University</a>, 
+  <a href="http://www.nytimes.com/topic/subject/global-warming-climate-change" class="source" target="_blank">New York Times</a>, 
+  <a href="http://www.livescience.com/topics/global-warming" class="source" target="_blank">LiveScience</a>, 
+  <a href="http://www.dailymail.co.uk/sciencetech/article-2548164/Penguins-peril-climate-change-Chicks-dying-rainstorms-heatwaves-claim-scientists.html" class="source" target="_blank">Daily Mail</a> 
+
+</p></b></center>
+
+</body>
+
+</html>
